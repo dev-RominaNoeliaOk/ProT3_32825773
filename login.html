@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+    <link rel="stylesheet" href="../estilos_propios.css">
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    </head>
+  <body class="body-desayunoymerienda">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid flex-container">
+          <img src="../img/logo.png" alt="" height="64px" width="64px" />
+          <a class="navbar-brand" href="principal.html">
+            ..:: Home Las Recetas ::..</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <p></p>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul
+              class="navbar-nav container-fluid mb-2 mb-lg-0 nav justify-content-center justify-content-lg-between aligin-itms-center"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="quienes_somos.html"
+                  >Quienes Somos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="acerca_de_nosotros.html"
+                  >Acerca de nosotros</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown-toggle"
+                  href=""
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >
+                  ..:: Recetas ::..
+                </a>
+                <ul class="dropdown-menu bg-body-secondary">
+                  <li><i> Desayuno y Merienda</i></li>
+                  <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./desayuno_y_merienda.html#Dulces"
+                      >Dulces</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./desayuno_y_merienda.html#Saladas"
+                      >Saladas</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider text-center" />
+                    <i>Almuerzos y Cenas </i>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./almuerzos_y_cenas.html#Fríos">Fríos</a>
+                    <a class="dropdown-item" href="./almuerzos_y_cenas.html#Calientes">Calientes</a>
+                  </li>
+                </ul>
+              </li>
+              <div
+                class="justify-content-center justify-content-lg-between aligin-itms-center"
+              >
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Busca tus recetas aquí"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Buscar
+                  </button>
+                </form>
+              </div>
+              <li>
+                <a class="nav-link active" href="./registrarse.html">Registrarse</a>
+              </li>
+              <a class="btn btn-outline-success" href="./login.html" role="button">
+                Login
+              </a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+
+      <section class="section-form">
+          <div class="form-container">
+            <h2><b>Login</b></h2>
+            <form action="" method="post">
+              <div class="form-group">
+                <label for="">Correo Electrónico</label>
+                <input type="email" name="" id="email"
+                name="email" placeholder="Ingresa tu correo" required="true">
+              </div>
+              <div class="form-group">
+                <label for="">Contraseña</label>
+                <input type="password" name="" id="password" name="password" placeholder="Crea una Contraseña" required="true"> 
+              </div>
+              <div class="row justify-content-star">
+                <div class="col-4 form-group">
+                  <button type="submit">Registrase</button>
+                </div>
+                <div class="col-4 form-group2">
+                  <button type="submit">Cancelar</button>
+                </div>
+              </div>           
+            <div class="form-footer">¿No tenes una cuenta? <a href="./registrarse.html">Registro aquí</a></div>
+          </form>
+          </div>
+        </section>
+    </main>
+  </body>
+</html>
